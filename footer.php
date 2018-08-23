@@ -56,10 +56,10 @@
                         <h3 class="widgettitle"><span>Our Services</span></h3>
                         <div class="menu-subfooter-menu-container">
                            <ul id="menu-subfooter-menu" class="menu">
-                              <li id="menu-item-420" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-420"><a title="Responsive Themes and Plugins" href="/responsive-websites-and-applications/">Responsive Sites and Applications</a></li>
-                              <li id="menu-item-416" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-416"><a title="eCommerce Themes and Plugins" href="/e-commerce-themes-and-plugins/">eCommerce Themes and Plugins</a></li>
-                              <li id="menu-item-421" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-421"><a title="WordPress Web Applications" href="/wordpress-web-applications/">WordPress Web Applications</a></li>
-                              <li id="menu-item-418" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-418"><a title="Website Maintenance" href="/maintenance/">WordPress Maintenance</a></li>
+                              <li id="menu-item-420" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-420"><a title="Responsive Themes and Plugins" href="/responsive-websites/">Responsive Sites and Applications</a></li>
+                              <li id="menu-item-416" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-416"><a title="eCommerce Themes and Plugins" href="/ecommerce/">Ecommerce Websites</a></li>
+                              <li id="menu-item-421" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-421"><a title="Web Applications" href="/website-building-steps/">Web Applications</a></li>
+                              <li id="menu-item-418" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-418"><a title="Website Maintenance" href="/website-maintenance/">Website Maintenance</a></li>
                            </ul>
                         </div>
                      </div>
@@ -76,7 +76,6 @@
                               <li id="menu-item-549" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-549">Vancouver</li>
                               <li id="menu-item-533" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-533">Niagara Falls</li>
                               <li id="menu-item-534" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-534">Kingston</li>
-                              <li id="menu-item-550" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-550">Kanata</li>
                               <li id="menu-item-535" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-535">Oakville</li>
                            </ul>
                         </div>
@@ -93,7 +92,7 @@
                      <li id="menu-item-429" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-429"><a href="/privacy-policy/">Privacy Policy</a></li>
                   </ul>
                </div>
-               ©  2018 1 Pixel Design.
+               © 2018 1Pixel Design.
             </div>
          </div>
          <!-- End #footer div -->

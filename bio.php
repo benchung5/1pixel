@@ -13,8 +13,8 @@ include_once './header.php';
                      <h1 class="page-title">Bio</h1>
                      <p><img class="round-image left margin-right" src="./assets/images/img-bio-ben.png" alt="Ben Chung"></p>
                      <h2>Ben Chung developer/CEO</h2>
-                     <p>As the world changes we rely more on the web through sites and apps. It’s completely different that.&nbsp;As a result, I’ve decided to specialize in developing modern web Applications.&nbsp;Currently I handle web&nbsp;consulting,&nbsp;front end, back end&nbsp;development and a bunch of other things. &nbsp;My expertise started more from &nbsp;a UI/graphics side and gradually progressed more to code and server administration.</p>
-                     <p>I enjoy taking a project from start to finish and embrace the hands on approach of test-driven and&nbsp;agile methodologies.&nbsp;We’re&nbsp;excited about some new advancements the area of Javascript, Node WordPress amongst other things.</p>
+                     <p>As the world changes we rely more on the web through sites and apps. It’s completely different that.&nbsp;As a result, I’ve decided to specialize in developing modern web sites Applications.&nbsp;Currently I handle web&nbsp;consulting,&nbsp;front end, back end&nbsp;development and a bunch of other things. &nbsp;My expertise started more from &nbsp;a UI/graphics side and gradually progressed more to code and server administration.</p>
+                     <p>I enjoy taking a project from start to finish and embrace the hands on approach of test-driven and&nbsp;agile methodologies.&nbsp;We’re&nbsp;excited about some new advancements on the web that enhance user experience and make building marketplace sites easier than ever before.</p>
                      <p>Here are some core principles&nbsp;I believe in&nbsp;:</p>
                      <ul>
                         <li>Being creative in every situation</li>

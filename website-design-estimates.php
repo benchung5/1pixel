@@ -24,7 +24,7 @@ include_once './header.php';
                               <li class="bullet-item">Up to 5 stock photography images<i class="icon-ok" title=""></i></li>
                               <li class="bullet-item">Secure server setup<i class="icon-ok" title=""></i></li>
                               <li class="bullet-item">1 hour free consultation<i class="icon-ok" title=""></i></li>
-                              <li class="bullet-item">Custom blog design<i class="icon-remove red" title=""></i></li>
+                              <li class="bullet-item">CMS (content management system)<i class="icon-remove red" title=""></i></li>
                               <li class="bullet-item">Unlimitted blog pages<i class="icon-remove red" title=""></i></li>
                               <li class="bullet-item">Shopping cart<i class="icon-remove red" title=""></i></li>
                               <li class="bullet-item">Product gallery<i class="icon-remove red" title=""></i></li>
@@ -46,7 +46,7 @@ include_once './header.php';
                               <li class="bullet-item">Up to 5 stock photography images<i class="icon-ok" title=""></i></li>
                               <li class="bullet-item">Secure server setup<i class="icon-ok" title=""></i></li>
                               <li class="bullet-item">1 hour free consultation<i class="icon-ok" title=""></i></li>
-                              <li class="bullet-item">Custom blog design<i class="icon-ok" title=""></i></li>
+                              <li class="bullet-item">CMS (content management system)<i class="icon-ok" title=""></i></li>
                               <li class="bullet-item">Unlimitted blog pages<i class="icon-ok" title=""></i></li>
                               <li class="bullet-item">Shopping cart<i class="icon-remove red" title=""></i></li>
                               <li class="bullet-item">Product gallery<i class="icon-remove red" title=""></i></li>
@@ -68,7 +68,7 @@ include_once './header.php';
                               <li class="bullet-item">Up to 5 stock photography images<i class="icon-ok" title=""></i></li>
                               <li class="bullet-item">Secure server setup<i class="icon-ok" title=""></i></li>
                               <li class="bullet-item">1 hour free consultation<i class="icon-ok" title=""></i></li>
-                              <li class="bullet-item">Custom blog design<i class="icon-ok" title=""></i></li>
+                              <li class="bullet-item">CMS (content management system)<i class="icon-ok" title=""></i></li>
                               <li class="bullet-item">Unlimitted blog pages<i class="icon-ok" title=""></i></li>
                               <li class="bullet-item">Shopping cart<i class="icon-ok" title=""></i></li>
                               <li class="bullet-item">Product gallery<i class="icon-ok" title=""></i></li>

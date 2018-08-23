@@ -1,3 +1,7 @@
+<?php
+$root = 'http://localhost:4000/';
+?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <!-- saved from url=(0024)/ -->
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" prefix="og: http://ogp.me/ns#">
@@ -25,37 +29,37 @@
 <meta property="og:description" content="We build modern, scalable web and mobile applications. Specializing in NodeJS, React.js and WordPress HTML 5 technologies.">
 <meta property="og:url" content="/">
 <meta property="og:site_name" content="1 Pixel Design">
-<script type="text/javascript" async="" src="./assets/js/ga.js"></script><script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"WebSite","url":"http:\/\/localhost\/1pixel\/","name":"1 Pixel Design","potentialAction":{"@type":"SearchAction","target":"http:\/\/localhost\/1pixel\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<script type="text/javascript" async="" src="<?= $root ?>assets/js/ga.js"></script><script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"WebSite","url":"http:\/\/localhost\/1pixel\/","name":"1 Pixel Design","potentialAction":{"@type":"SearchAction","target":"http:\/\/localhost\/1pixel\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
 
 
 <style type="text/css"></style>
-<link rel="stylesheet" id="pc-style-css" href="./assets/css/pc-style.css" type="text/css" media="all">
-<link rel="stylesheet" id="simple_tooltips_style-css" href="./assets/css/zebra_tooltips.css" type="text/css" media="all">
-<link rel="stylesheet" id="contact-form-7-css" href="./assets/css/styles.css" type="text/css" media="all">
-<link rel="stylesheet" id="theme-main-styles-css" href="./assets/css/style.css" type="text/css" media="all">
-<link rel="stylesheet" id="theme-fonts-styles-css" href="./assets/css/style-font.css" type="text/css" media="all">
-<link rel="stylesheet" id="theme-responsive-styles-css" href="./assets/css/style-responsive.css" type="text/css" media="all">
-<link rel="stylesheet" id="font-awesome-styles-css" href="./assets/css/font-awesome.css" type="text/css" media="all">
-<link rel="stylesheet" id="font-awesome-corp-styles-css" href="./assets/css/font-awesome-corp.css" type="text/css" media="all">
-<link rel="stylesheet" id="font-awesome-ext-styles-css" href="./assets/css/font-awesome-ext.css" type="text/css" media="all">
-<link rel="stylesheet" id="font-awesome-social-styles-css" href="./assets/css/font-awesome-social.css" type="text/css" media="all">
+<link rel="stylesheet" id="pc-style-css" href="<?= $root ?>assets/css/pc-style.css" type="text/css" media="all">
+<link rel="stylesheet" id="simple_tooltips_style-css" href="<?= $root ?>assets/css/zebra_tooltips.css" type="text/css" media="all">
+<link rel="stylesheet" id="contact-form-7-css" href="<?= $root ?>assets/css/styles.css" type="text/css" media="all">
+<link rel="stylesheet" id="theme-main-styles-css" href="<?= $root ?>assets/css/style.css" type="text/css" media="all">
+<link rel="stylesheet" id="theme-fonts-styles-css" href="<?= $root ?>assets/css/style-font.css" type="text/css" media="all">
+<link rel="stylesheet" id="theme-responsive-styles-css" href="<?= $root ?>assets/css/style-responsive.css" type="text/css" media="all">
+<link rel="stylesheet" id="font-awesome-styles-css" href="<?= $root ?>assets/css/font-awesome.css" type="text/css" media="all">
+<link rel="stylesheet" id="font-awesome-corp-styles-css" href="<?= $root ?>assets/css/font-awesome-corp.css" type="text/css" media="all">
+<link rel="stylesheet" id="font-awesome-ext-styles-css" href="<?= $root ?>assets/css/font-awesome-ext.css" type="text/css" media="all">
+<link rel="stylesheet" id="font-awesome-social-styles-css" href="<?= $root ?>assets/css/font-awesome-social.css" type="text/css" media="all">
       <!--[if lte IE 7]>
       <link rel='stylesheet' id='font-awesome-more-ie7-css'  href='/wp-content/plugins/font-awesome-more-icons/assets/css/font-awesome-more-ie7.min.css?ver=%203.5' type='text/css' media='all' />
    <![endif]-->
-   <link rel="stylesheet" id="theme-custom-styles-css" href="./assets/css/custom.css" type="text/css" media="all">
-   <link rel="stylesheet" id="font-icon-style-css" href="./assets/css/font-awesome.css" type="text/css" media="all">
-   <script type="text/javascript" src="./assets/js/jquery.js"></script>
-   <script type="text/javascript" src="./assets/js/jquery-migrate.min.js"></script>
-   <script type="text/javascript" src="./assets/js/mailchimp-widget-min.js"></script>
-   <script type="text/javascript" src="./assets/js/pricecalculator.js"></script>
+   <link rel="stylesheet" id="theme-custom-styles-css" href="<?= $root ?>assets/css/custom.css" type="text/css" media="all">
+   <link rel="stylesheet" id="font-icon-style-css" href="<?= $root ?>assets/css/font-awesome.css" type="text/css" media="all">
+   <script type="text/javascript" src="<?= $root ?>assets/js/jquery.js"></script>
+   <script type="text/javascript" src="<?= $root ?>assets/js/jquery-migrate.min.js"></script>
+   <script type="text/javascript" src="<?= $root ?>assets/js/mailchimp-widget-min.js"></script>
+   <script type="text/javascript" src="<?= $root ?>assets/js/pricecalculator.js"></script>
    <script type="text/javascript">
       /* <![CDATA[ */
       var ajaxcontactajax = {"ajaxurl":"http:\/\/localhost\/1pixel\/wp-admin\/admin-ajax.php"};
       /* ]]> */
    </script>
-   <script type="text/javascript" src="./assets/js/ajaxcontact.js"></script>
-   <script type="text/javascript" src="./assets/js/hoverIntent.js"></script>
-   <script type="text/javascript" src="./assets/js/superfish.js"></script>
+   <script type="text/javascript" src="<?= $root ?>assets/js/ajaxcontact.js"></script>
+   <script type="text/javascript" src="<?= $root ?>assets/js/hoverIntent.js"></script>
+   <script type="text/javascript" src="<?= $root ?>assets/js/superfish.js"></script>
 
    <script type="text/javascript">
       var _gaq = _gaq || [];
@@ -103,9 +107,7 @@
 <?php
 if ($_SERVER[REQUEST_URI] == '/') {
    $body_class = 'home page page-id-29 page-template page-template-page-alt-home page-template-page-alt-home-php fwidth unboxed No-Background-Pattern';
-} elseif (($_SERVER[REQUEST_URI] == '/branding.php')) {
-   $body_class = 'archive category category-websites category-9 c-sw unboxed No-Background-Pattern';
-} elseif (($_SERVER[REQUEST_URI] == '/website-design-estimates.php') || ($_SERVER[REQUEST_URI] == '/websites.php')) {
+} elseif (($_SERVER[REQUEST_URI] == '/website-design-estimates.php') || ($_SERVER[REQUEST_URI] == '/websites.php') || ($_SERVER[REQUEST_URI] == '/branding.php')) {
    $body_class = 'page page-id-63 page-template page-template-cusom-maintenance-prices page-template-cusom-maintenance-prices-php logged-in admin-bar fwidth unboxed No-Background-Pattern customize-support';
 } else {
    $body_class = 'page page-id-119 page-template-default c-sn unboxed No-Background-Pattern';
@@ -198,7 +200,7 @@ if ($_SERVER[REQUEST_URI] == '/') {
          <div id="head-content" class="clearfix">
             <!-- SITE-TITLE/LOGO -->
             <div id="sitetitle">
-               <a href="/" title="1 Pixel Design"><img src="./assets/images/logo-1-pixel-design-inc.png" alt="1 Pixel Design"></a>
+               <a href="/" title="1 Pixel Design"><img src="<?= $root ?>assets/images/logo-1-pixel-design-inc.png" alt="1 Pixel Design"></a>
             </div>
             <!-- SECONDARY NAVIGATION -->
             <div id="catnav">
