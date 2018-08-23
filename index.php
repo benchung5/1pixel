@@ -12,13 +12,13 @@ include_once './header.php';
                               <h2 class="post-title">
                                  <a href="/#">
                                  <span class="professional">Modern</span>
-                                 <span class="wordpress">Web&nbsp;Application</span>
-                                 <span class="design-develop">Development</span>
+                                 <span class="wordpress">Website Design</span>
+                                 <span class="design-develop">+ Development</span>
                                  </a>
                               </h2>
                               <div class="my-excerpt clearfix">
                                  <div class="excerpt-inner">
-                                    We build modern, scalable web and mobile applications. Plan, test drive and execute your vision directly with the developer - <br> <a title="Web applicaton building steps" href="/application-building-steps/">without the nonsense.</a>
+                                    We build modern, scalable mobile-ready websites. Plan, test drive and execute your vision directly with the developer - <br> <a title="Web applicaton building steps" href="/website-building-steps/">without the nonsense.</a>
                                  </div>
                               </div>
                            </div>
@@ -42,8 +42,8 @@ include_once './header.php';
                               <div id="featured-banner-grad" class="clearfix solo-wide">
                                  <div class="limit">
                                     <div class="welcome-message">
-                                       <h2 style="margin-bottom:5px;text-align:center;">See how the new WordPress API has turned this former blogging CMS <br>into a fully-featured application platform</h2>
-                                       <center><a href="/wordpress-rest-api/" class="featured-button">Sounds good. Tell me more</a></center>
+                                       <h2 style="margin-bottom:5px;text-align:center;">See how responsive web design <br>has changed how websites are viewed on mobile devices</h2>
+                                       <center><a href="/responsive-websites/" class="featured-button">Sounds good. Tell me more</a></center>
                                     </div>
                                  </div>
                               </div>
@@ -53,10 +53,11 @@ include_once './header.php';
                            <div class="widget widget-1 widget-first featuredpage" id="featured-page-4">
                               <div class="widget-wrap">
                                  <div class="post clearfix">
-                                    <h3 class="widgettitle"><span><a href="/nodejs-web-apps/">Cloud Hosted Apps</a></span></h3>
-                                    <span class="dropcap"><i class="icon-plane"></i></span>We use modern frameworks accross the full server to front end stack - enabling kick butt development speed and full control of your website or application. Power Performant real-time websites built ontop of google technologies.
+                                    <h3 class="widgettitle"><span><a href="/nodejs-web-apps/">Business Websites</a></span></h3>
+                                    <span class="dropcap"><i class="icon-plane"></i></span>
+                                    Complete business website design and development. Built in-house form the ground up from initial idea to deployment and maintenace. We take careful consideration to account for updates and scalability.
                                     <br>
-                                    <a rel="nofollow" href="/nodejs-web-apps/">Read More</a>
+                                    <a rel="nofollow" href="/websites/">View Examples</a>
                                  </div>
                               </div>
                            </div>
@@ -65,9 +66,9 @@ include_once './header.php';
                            <div class="widget widget-1 widget-first featuredpage" id="featured-page-4">
                               <div class="widget-wrap">
                                  <div class="post clearfix">
-                                    <h3 class="widgettitle"><span><a href="/mobile-apps/">Mobile Apps</a></span></h3>
-                                    <span class="dropcap"><i class="icon-shopping-cart"></i></span>Stay ontop of the game by including the convnience, added functionality and offline benefits of a dedicated mobile app. We use the React Native framework to integrate your mobile app with your website or application.<br>
-                                    <a rel="nofollow" href="/mobile-apps/">Read More</a>
+                                    <h3 class="widgettitle"><span><a href="/mobile-apps/">Ecommerce Websites</a></span></h3>
+                                    <span class="dropcap"><i class="icon-shopping-cart"></i></span>Sell your products overseas or from the click of a button with digital downloads . We provide a complete online shopping cart, product management, showcase and easy secure payment via stripe checkout<br>
+                                    <a rel="nofollow" href="/ecommerce/">Read More</a>
                                  </div>
                               </div>
                            </div>
@@ -76,9 +77,10 @@ include_once './header.php';
                            <div class="widget widget-1 widget-first featuredpage" id="featured-page-4">
                               <div class="widget-wrap">
                                  <div class="post clearfix">
-                                    <h3 class="widgettitle"><span><a href="/wordpress-web-applications/">Website Embedded Apps</a></span></h3>
-                                    <span class="dropcap"><i class="icon-cogs"></i></span>Embed your application on any site using interactive RESTful API's. This works the same way as a YouTube embed or Twitter feed. Clients or the public would be able to pull and display your application on nearly any platform.  <br>
-                                    <a rel="nofollow" href="/wordpress-web-applications/">Read More</a>
+                                    <h3 class="widgettitle"><span><a href="/wordpress-web-applications/">Web Applications</a></span></h3>
+                                    <span class="dropcap"><i class="icon-cogs"></i></span>
+                                    Change the way you do business with a web application. We deliver fully customized small to mid-sized business apps using modern techniques to make you web application feel like a desktop app.<br>
+                                    <a rel="nofollow" href="/website-building-steps/">Our Process</a>
                                  </div>
                               </div>
                            </div>

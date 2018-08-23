@@ -385,9 +385,6 @@ include_once './header.php';
             <div style="clear:both;margin-bottom:20px;"></div>
          </div>
          <!-- End #contentleft div -->
-         <?php
-         include_once './sidebar_wide.php';
-         ?>
       </div>
       <!-- End .page-border div -->
    </div>

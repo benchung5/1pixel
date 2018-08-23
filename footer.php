@@ -4,8 +4,8 @@
             <div id="footer-banner">
                <div class="clear"></div>
                <div class="footer-center">
-                  <h1 class="footer-featured-text">View our complete monthly Website maintenance packages.</h1>
-                  <a title="Monthly Website Maintenance Packages" href="/maintenance-package-prices/" class="button black">Try now</a>
+                  <h1 class="footer-featured-text">View our complete Website design packages.</h1>
+                  <a title="Monthly Website Maintenance Packages" href="/website-design-estimates/" class="button black">View Estimates</a>
                </div>
                <div class="clear"></div>
             </div>
@@ -18,7 +18,7 @@
                         <h3 class="widgettitle"><span>Contact Us</span></h3>
                         <div class="textwidget">T: 289-273-6424
                            <br>
-                           E: info@1pixeldesign.com
+                           E: ben@benchung.com
                         </div>
                      </div>
                   </div>
@@ -71,13 +71,13 @@
                         <h3 class="widgettitle"><span>Service Areas</span></h3>
                         <div class="menu-service-areas-container">
                            <ul id="menu-service-areas" class="menu">
-                              <li id="menu-item-532" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-532"><a title="Ottawa Website Design &amp; Development" href="/ottawa-wordpress-plugins-themes/">Ottawa</a></li>
-                              <li id="menu-item-531" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-531"><a title="Toronto Website Design &amp; Development" href="/toronto-wordpress-plugins-themes/">Toronto</a></li>
-                              <li id="menu-item-549" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-549"><a title="Vancouver Website Design &amp; Development" href="/vancouver-wordpress-plugins-themes/">Vancouver</a></li>
-                              <li id="menu-item-533" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-533"><a title="Niagara Falls Website Design &amp; Development" href="/niagara-falls-wordpress-plugins-themes/">Niagara Falls</a></li>
-                              <li id="menu-item-534" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-534"><a title="Kingston Website Design &amp; Development" href="/kingston-wordpress-plugins-themes/">Kingston</a></li>
-                              <li id="menu-item-550" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-550"><a title="Kanata Website Design &amp; Development" href="/kanata-wordpress-plugins-themes/">Kanata</a></li>
-                              <li id="menu-item-535" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-535"><a title="Oakville Website Design &amp; Development" href="/oakville-wordpress-plugins-themes/">Oakville</a></li>
+                              <li id="menu-item-532" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-532">Ottawa</li>
+                              <li id="menu-item-531" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-531">Toronto</li>
+                              <li id="menu-item-549" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-549">Vancouver</li>
+                              <li id="menu-item-533" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-533">Niagara Falls</li>
+                              <li id="menu-item-534" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-534">Kingston</li>
+                              <li id="menu-item-550" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-550">Kanata</li>
+                              <li id="menu-item-535" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-535">Oakville</li>
                            </ul>
                         </div>
                      </div>

@@ -13,28 +13,28 @@
 
 @media only screen and (max-width: 1280px) {
 
-/*title --------------------------------------------*/
+	/*title --------------------------------------------*/
 
-.featured.wide .myflexslider .flex-caption {
-    top: 60px;
-}
-        
-.featured.wide .myflexslider h2.post-title .professional {
-    font-size: 34px;
-    position: absolute;
+	.featured.wide .myflexslider .flex-caption {
+	    top: 60px;
 	}
-.featured.wide .myflexslider h2.post-title .wordpress {
-    position: absolute;
-    top: 44px;
+	        
+	.featured.wide .myflexslider h2.post-title .professional {
+	    font-size: 34px;
+	    position: absolute;
 	}
-        
 
-.featured.wide .myflexslider h2.post-title .design-develop {
-    font-size: 38px;
-    font-style: italic;
-    position: absolute;
-    top: 92px;
-    width: 244px;
+	.featured.wide .myflexslider h2.post-title .wordpress {
+	    position: absolute;
+	    top: 44px;
+	}
+	        
+	.featured.wide .myflexslider h2.post-title .design-develop {
+	    font-size: 38px;
+	    font-style: italic;
+	    position: absolute;
+	    top: 92px;
+	    width: 260px;
 	}
 
 }
