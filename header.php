@@ -109,8 +109,10 @@
 <?php
 if ($_SERVER[REQUEST_URI] == '/') {
    $body_class = 'home page page-id-29 page-template page-template-page-alt-home page-template-page-alt-home-php fwidth unboxed No-Background-Pattern';
-} elseif ($_SERVER[REQUEST_URI] == '/websites.php' || $_SERVER[REQUEST_URI] == '/branding.php') {
+} elseif (($_SERVER[REQUEST_URI] == '/websites.php') || ($_SERVER[REQUEST_URI] == '/branding.php')) {
    $body_class = 'archive category category-websites category-9 c-sw unboxed No-Background-Pattern';
+} elseif (($_SERVER[REQUEST_URI] == '/website-maintenance-plans.php')) {
+   $body_class = 'page page-id-63 page-template page-template-cusom-maintenance-prices page-template-cusom-maintenance-prices-php logged-in admin-bar fwidth unboxed No-Background-Pattern customize-support';
 } else {
    $body_class = 'page page-id-119 page-template-default c-sn unboxed No-Background-Pattern';
 }
@@ -135,17 +137,9 @@ if ($_SERVER[REQUEST_URI] == '/') {
             <li id="menu-item-112" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-112">
                <a href="/services/">Services</a>
                <ul class="sub-menu">
-                  <li id="menu-item-682" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-682"><a href="/nodejs-web-apps/">NodeJS Web Apps</a></li>
-                  <li id="menu-item-135" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-135">
-                     <a href="/wordpress-web-applications/">WordPress Web Apps</a>
-                     <ul class="sub-menu">
-                        <li id="menu-item-125" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-125"><a href="/why-wordpress/">Why WordPress?</a></li>
-                        <li id="menu-item-99" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99"><a href="/wordpress-rest-api/">WordPress Rest API</a></li>
-                     </ul>
-                  </li>
                   <li id="menu-item-111" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111"><a href="/responsive-websites-and-applications/">Responsive Sites and Applications</a></li>
-                  <li id="menu-item-102" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-102"><a href="/e-commerce-themes-and-plugins/">E commerce Themes and Plugins</a></li>
-                  <li id="menu-item-105" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-105"><a href="/maintenance/">WordPress Maintenance</a></li>
+                  <li id="menu-item-102" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-102"><a href="/e-commerce-themes-and-plugins/">E commerce Websites </a></li>
+                  <li id="menu-item-105" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-105"><a href="/maintenance/">Website Maintenance</a></li>
                </ul>
             </li>
             <li id="menu-item-352" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-352">

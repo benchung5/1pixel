@@ -4,7 +4,7 @@
             <div id="footer-banner">
                <div class="clear"></div>
                <div class="footer-center">
-                  <h1 class="footer-featured-text">View our complete monthly WordPress maintenance packages.</h1>
+                  <h1 class="footer-featured-text">View our complete monthly Website maintenance packages.</h1>
                   <a title="Monthly Website Maintenance Packages" href="/maintenance-package-prices/" class="button black">Try now</a>
                </div>
                <div class="clear"></div>
@@ -59,7 +59,7 @@
                               <li id="menu-item-420" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-420"><a title="Responsive Themes and Plugins" href="/responsive-websites-and-applications/">Responsive Sites and Applications</a></li>
                               <li id="menu-item-416" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-416"><a title="eCommerce Themes and Plugins" href="/e-commerce-themes-and-plugins/">eCommerce Themes and Plugins</a></li>
                               <li id="menu-item-421" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-421"><a title="WordPress Web Applications" href="/wordpress-web-applications/">WordPress Web Applications</a></li>
-                              <li id="menu-item-418" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-418"><a title="WordPress Maintenance" href="/maintenance/">WordPress Maintenance</a></li>
+                              <li id="menu-item-418" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-418"><a title="Website Maintenance" href="/maintenance/">WordPress Maintenance</a></li>
                            </ul>
                         </div>
                      </div>
