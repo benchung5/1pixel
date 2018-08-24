@@ -24,7 +24,7 @@ include_once './header.php';
                            </div>
                         </div>
                         <div class="feature-image">
-                           <img src="./assets/images/featured1_02.png" alt="featured">
+                           <img src="<?= $root ?>assets/images/featured1_02.png" alt="featured">
                         </div>
                      </div>
                   </li>

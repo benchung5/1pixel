@@ -27,6 +27,7 @@ $data = [
    'acjd' => ['title' => 'ACJD', 'image' => 'acjd.jpg', 'website' => '', 'description' => ''],
 ];
 ?>
+
 <div id="wrap">
    <span class="primary-background seperator-addon seperator-bottom"></span>
    <div class="border"></div>
@@ -41,11 +42,11 @@ $data = [
                         <?= get_data($data) ? get_data($data)['title'] : '' ?>
                      </h1>
                      <div class="clear"></div>
-                     <div class=".portfolio-feature-image"><img src="<?= $root ?>assets/images/clients/<?= get_data($data)['image'] ?>" alt="<?= get_data($data)['title'] ?>" title="<?= get_data($data)['title'] ?>">
+                     <div class=".portfolio-feature-image"><img src="<?= $root ?>assets/images/clients/<?= get_data($data)['image'] ?>" alt="<?= get_data($data) ? get_data($data)['title'] : '' ?>" title="<?= get_data($data)['title'] ?>">
                      </div>
                      <?php if (get_data($data) && get_data($data)['website']) : ?>
                         <div class="spacer-sml"></div>
-                        <p><a title="<?= get_data($data)['title'] ?>" href="<?= get_data($data)['website'] ?>" target="_blank">Visit site</a></p>
+                        <p><a title="<?= get_data($data) ? get_data($data)['title'] : '' ?>" href="<?= get_data($data) ? get_data($data)['website'] : '' ?>" target="_blank">Visit site</a></p>
                      <?php endif ?>
                      <p><?= get_data($data) && get_data($data)['description'] ?></p>
                      <div style="clear:both;"></div>

@@ -11,10 +11,10 @@ include_once './header.php';
          </h2>
       </div>
       <div class="full-width-foreground">
-         <img title="1 Pixel Services" class="lazy-third" src="./assets/images/img-featured-websites.png" alt="computer and screens" style="opacity: 1;">        
+         <img title="1 Pixel Services" class="lazy-third" src="<?= $root ?>assets/images/img-featured-websites.png" alt="computer and screens" style="opacity: 1;">        
       </div>
    </div>
-   <img alt="services background" class="full-width-img" src="./assets/images/img_featured_services.png">
+   <img alt="services background" class="full-width-img" src="<?= $root ?>assets/images/img_featured_services.png">
 </div>
 <div class="full-width-intro-wrap">
    <div class="limit">

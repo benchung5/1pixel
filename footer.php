@@ -16,7 +16,8 @@
                   <div id="text-4" class="widget widget-1 widget-first widget_text">
                      <div class="widget-wrap">
                         <h3 class="widgettitle"><span>Contact Us</span></h3>
-                        <div class="textwidget">T: 289-273-6424
+                        <div class="textwidget">T: 289-686-9150
+                           <!-- T: 289-273-6424 -->
                            <br>
                            E: ben@benchung.com
                         </div>
@@ -27,10 +28,10 @@
                         <h3 class="widgettitle"><span>Languages of Choice</span></h3>
                         <div class="textwidget">
                            <div class="footer-code-icons">
-                              <a target="_blank" href="http://www.w3.org/html/wg/drafts/html/master/"><img id="icon-html5" src="./assets/images/icon-html5.png" title="We Use latest HTML5 and CSS3 techniques" alt="HTML5 icon"></a>
-                              <a target="_blank" href="http://php.net/"><img id="icon-php" src="./assets/images/icon-php.png" title="We Use PHP for server side programming" alt="PHP icon"></a>
-                              <a target="_blank" href="http://jquery.com/"><img id="icon-jquery" src="./assets/images/icon-jquery.png" title="We Use jQuery for interactive websites and user interfaces" alt="jQuery icon"></a>
-                              <a target="_blank" href="http://www.mysql.com/"><img id="icon-mysql" src="./assets/images/icon-mysql.png" title="We Use MySQL for database design" alt="MySQL icon"></a>
+                              <a target="_blank" href="http://www.w3.org/html/wg/drafts/html/master/"><img id="icon-html5" src="<?= $root ?>assets/images/icon-html5.png" title="We Use latest HTML5 and CSS3 techniques" alt="HTML5 icon"></a>
+                              <a target="_blank" href="http://php.net/"><img id="icon-php" src="<?= $root ?>assets/images/icon-php.png" title="We Use PHP for server side programming" alt="PHP icon"></a>
+                              <a target="_blank" href="http://jquery.com/"><img id="icon-jquery" src="<?= $root ?>assets/images/icon-jquery.png" title="We Use jQuery for interactive websites and user interfaces" alt="jQuery icon"></a>
+                              <a target="_blank" href="http://www.mysql.com/"><img id="icon-mysql" src="<?= $root ?>assets/images/icon-mysql.png" title="We Use MySQL for database design" alt="MySQL icon"></a>
                            </div>
                         </div>
                      </div>
@@ -137,44 +138,34 @@
             jQuery('.fixednav').mobileMenu({ defaultText: 'Navigate to ...', className: 'select-menu-fixednav' });
          });
       </script>
-      <!-- Media Queries Script for IE8 and Older -->
-      <!--[if lt IE 9]>
-      <script type="text/javascript" src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-      <![endif]-->
-      <script type="text/javascript" src="./assets/js/zebra_tooltips.js"></script>
-      <script type="text/javascript" src="./assets/js/jquery.form.min.js"></script>
+
+      <script type="text/javascript" src="<?= $root ?>assets/js/zebra_tooltips.js"></script>
+      <script type="text/javascript" src="<?= $root ?>assets/js/froogaloop.min.js"></script>
+      <script type="text/javascript" src="<?= $root ?>assets/js/flexslider-min.js"></script>
+      <script type="text/javascript" src="<?= $root ?>assets/js/flex-script-main.js"></script>
+      <script type="text/javascript" src="<?= $root ?>assets/js/framework.js"></script>
+      <script type="text/javascript" src="<?= $root ?>assets/js/external.js"></script>
+      <script type="text/javascript" src="<?= $root ?>assets/js/suckerfish.js"></script>
+      <script type="text/javascript" src="<?= $root ?>assets/js/suckerfish-cat.js"></script>
+      <script type="text/javascript" src="<?= $root ?>assets/js/jquery.mobilemenu.js"></script>
+      <script type="text/javascript" src="<?= $root ?>assets/js/onepix-custom.js"></script>
+      <script type="text/javascript" src="<?= $root ?>assets/js/p-embed.min.js"></script>
+      <script type="text/javascript" src="<?= $root ?>assets/js/comment-reply.min.js"></script>
       <script type="text/javascript">
-         /* <![CDATA[ */
-         var _wpcf7 = {"loaderUrl":"http:\/\/localhost\/1pixel\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","recaptchaEmpty":"Please verify that you are not a robot.","sending":"Sending ..."};
-         /* ]]> */
-      </script>
-      <script type="text/javascript" src="./assets/js/scripts.js"></script>
-      <script type="text/javascript" src="./assets/js/froogaloop.min.js"></script>
-      <script type="text/javascript" src="./assets/js/flexslider-min.js"></script>
-      <script type="text/javascript" src="./assets/js/flex-script-main.js"></script>
-      <script type="text/javascript" src="./assets/js/framework.js"></script>
-      <script type="text/javascript" src="./assets/js/external.js"></script>
-      <script type="text/javascript" src="./assets/js/suckerfish.js"></script>
-      <script type="text/javascript" src="./assets/js/suckerfish-cat.js"></script>
-      <script type="text/javascript" src="./assets/js/jquery.mobilemenu.js"></script>
-      <script type="text/javascript" src="./assets/js/onepix-custom.js"></script>
-      <script type="text/javascript" src="./assets/js/p-embed.min.js"></script>
-      <script type="text/javascript" src="./assets/js/comment-reply.min.js"></script>
-      <script type="text/javascript">
-         jQuery(function() {
-                                     
-             jQuery(".tooltips img").closest(".tooltips").css("display", "inline-block");
-         
-             new jQuery.Zebra_Tooltips(jQuery('.tooltips').not('.custom_m_bubble'), {
-                 'background_color':     '#020202',
-                 'color':           '#ffffff',
-                 'max_width':  250,
-                 'opacity':    .85, 
-                 'position':    'center'
-             });
-             
-                                 
-         });
+      jQuery(function() {
+                                  
+          jQuery(".tooltips img").closest(".tooltips").css("display", "inline-block");
+      
+          new jQuery.Zebra_Tooltips(jQuery('.tooltips').not('.custom_m_bubble'), {
+              'background_color':     '#020202',
+              'color':           '#ffffff',
+              'max_width':  250,
+              'opacity':    .85, 
+              'position':    'center'
+          });
+          
+                              
+      });
       </script>        
    </body>
 </html>
