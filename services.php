@@ -5,14 +5,15 @@ include_once './header.php';
 <div class="full-width-img-wrap" style="opacity: 1;">
    <div class="limit">
       <div class="full-width-caption">
-         <h1 class="full-width-title lazy-first" style="opacity: 1;">Check out our services</h1>
+         <h1 class="full-width-title lazy-first" style="opacity: 1;">Progressive Web Apps</h1>
          <h2 class="full-width-title lazy-second" style="opacity: 1;">
-            We're a one stop shop for all your WordPress application needs. Find out what services are right for you.
+            Eliminate the need for both a website and native app. PWAs fulfill both needs at the same time.
+            
          </h2>
       </div>
-      <div class="full-width-foreground">
+<!--       <div class="full-width-foreground">
          <img title="1 Pixel Services" class="lazy-third" src="<?= $root ?>assets/images/img-featured-websites.png" alt="computer and screens" style="opacity: 1;">        
-      </div>
+      </div> -->
    </div>
    <img alt="services background" class="full-width-img" src="<?= $root ?>assets/images/img_featured_services.png">
 </div>
@@ -22,8 +23,9 @@ include_once './header.php';
          <div class="widget widget-1 widget-first featuredpage" id="featured-page-4">
             <div class="widget-wrap">
                <div class="post clearfix">
-                  <h3 class="widgettitle"><span><a href="http://1pixeltheme.com/wordpress-rest-api/">WordPress Web Applications</a></span></h3>
-                  <span class="dropcap"><i class="icon-cogs"></i></span>Some projects need special attention. Whether you're looking for online applications, feeds, or portals, we're up to the task. Find out about the WordPress REST API and what it will do for the future of WordPress web application development 
+                  <h3 class="widgettitle"><span><a href="http://1pixeltheme.com/wordpress-rest-api/">Cross Device Compatability</a></span></h3>
+                  <span class="dropcap"><i class="icon-cogs"></i></span>
+                  No need to create separate mobile apps for ios, android, etc. Progressive Web Apps can run on any device that can view a website. All code is kept and updated from one source wich means much lower costs and higher turnaround while reaching a broader audience.
                   <a rel="nofollow" href="http://1pixeltheme.com/wordpress-rest-api/">Read More</a>
                </div>
             </div>
@@ -33,8 +35,9 @@ include_once './header.php';
          <div class="widget widget-1 widget-first featuredpage" id="featured-page-4">
             <div class="widget-wrap">
                <div class="post clearfix">
-                  <h3 class="widgettitle"><span><a href="http://1pixeltheme.com/responsive-themes-and-plugins/">Responsive Themes &amp; Plugins</a></span></h3>
-                  <span class="dropcap" style="font-size: 21px;"><i class="icon-mobile-phone"></i></span>Need to become more visible to your clients? Responsive themes &amp; plugins will do just that by adapting to phone and tablet sizes on the fly. We'll do it right from the beginning. These days having a responsive site is no longer an option, but a requirement.
+                  <h3 class="widgettitle"><span><a href="http://1pixeltheme.com/responsive-themes-and-plugins/">No Need for downloads</a></span></h3>
+                  <span class="dropcap" style="font-size: 21px;"><i class="icon-mobile-phone"></i></span>
+                  PWA's download seamlessly without the hassle of searching on an app store. Images, files and content are saved to the device automatically as users navigate your website. Less hassle for clients mean higher chance of conversion.
                   <a href="http://1pixeltheme.com/responsive-themes-and-plugins/" rel="nofollow">Read More</a>
                </div>
             </div>
@@ -44,8 +47,9 @@ include_once './header.php';
          <div class="widget widget-1 widget-first featuredpage" id="featured-page-4">
             <div class="widget-wrap">
                <div class="post clearfix">
-                  <h3 class="widgettitle"><span><a href="http://1pixeltheme.com/e-commerce-themes-and-plugins/">eCommerce Themes &amp; Plugins</a></span></h3>
-                  <span class="dropcap"><i class="icon-shopping-cart"></i></span>Turn your installation into a money making tool. We believe e commerce websites should be easy to use for both owner and client. That's why we've streamlined our process of getting your existing Wordpress site or new site to where it needs to be.. quickly.
+                  <h3 class="widgettitle"><span><a href="http://1pixeltheme.com/e-commerce-themes-and-plugins/">Native App Features</a></span></h3>
+                  <span class="dropcap"><i class="icon-shopping-cart"></i></span>
+                  Progressive enhancement is all about speed and user experience. The gap is closing between desktop and the web. Features like installable home screen icons, mobile-friendly layouts and push notifications give users essential app convenience and abilities.
                   <a rel="nofollow" href="http://1pixeltheme.com/e-commerce-themes-and-plugins/">Read More</a>
                </div>
             </div>
@@ -59,7 +63,7 @@ include_once './header.php';
             <span class="sectionHeading-before"></span>
             <div class="sectionHeading">
                <h4>
-                  Other services we offer                        
+                  Other PWA advantages                       
                </h4>
             </div>
             <span class="sectionHeading-after"></span>
@@ -71,25 +75,25 @@ include_once './header.php';
       <div class="limit ">
          <div class="spacer"></div>
          <div class="one-fourth first center">
-            <h3 class="widgettitle"><span><a href="http://1pixeltheme.com/wordpress-migration/">Wordpress Migration</a></span></h3>
-            <p class="small center">Hopefully we've convinced you of the power of <a href="http://1pixeldesign.com/why-wordpress/">WordPress</a>. Next is importing your site. We've got the right tools and hosting for the job.</p>
+            <h3 class="widgettitle"><span><a href="http://1pixeltheme.com/wordpress-migration/">Offline Support</a></span></h3>
+            <p class="small center">Content, images and pages that have been visited become available offline, allowing flawless browsing without a download from the app store or internet connection.</p>
          </div>
          <div class="one-fourth center">
-            <h3 class="widgettitle"><span><a href="http://1pixeldesign.com/web-applications/">Monthly Maintainance</a></span></h3>
+            <h3 class="widgettitle"><span><a href="http://1pixeldesign.com/web-applications/">Increased Speed</a></span></h3>
             <p class="small center">
-               Having a website up and running is only the first step. We know it takes regular upkeep and avoid future problems.
+               Speed is increased as files and data are cached. The website progressively becomes more app-like, saving for offline mode and optimizing at the same time .
             </p>
          </div>
          <div class="one-fourth center">
-            <h3 class="widgettitle"><span><a href="http://1pixeldesign.com/hosting/">Hosting</a></span></h3>
+            <h3 class="widgettitle"><span><a href="http://1pixeldesign.com/hosting/">Up to Date</a></span></h3>
             <p class="small center">
-               Get your site on the right track with Fast affordable WordPress hosting. Find out about what many service providers claim to have, but don't
+               Your app will have fresh data when your website is updated. No need to track and download new versions. No need for service packs and update notifications.
             </p>
          </div>
          <div class="one-fourth center">
-            <h3 class="widgettitle"><span><a href="http://1pixeldesign.com/other-services/">Other Services</a></span></h3>
+            <h3 class="widgettitle"><span><a href="http://1pixeldesign.com/other-services/">Safe</a></span></h3>
             <p class="small center">
-               If you have a project that you'd like to get off the ground, but have a few non website-related needs that need tending to. Check these out.
+               All sites are secure (served over HTTPS). This prevents data from being snooped or tampered with while and providing assurance that data will be safe.
             </p>
          </div>
          <div class="clear"></div>

@@ -6304,8 +6304,6 @@ a.featured-button:hover {
     transition: all 0.4s ease 0s;
 }
 
-
-
 .full-width-caption {
     position: absolute;
     top: 60px;
@@ -6342,7 +6340,6 @@ h2.full-width-title {
     position: relative;
     width: 100%;
     transition: all 0.4s ease 0s;
-    max-height: 420px;
 }
 
 .landing-page-welcome {
@@ -6372,7 +6369,7 @@ h2.full-width-title {
 }
 .sectionHeadingWrap {
     background-color: #ececec;
-    height: 50px;
+    height: 48px;
     margin-bottom: 6px;
     text-align: center;
     width: 100%;

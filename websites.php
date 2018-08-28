@@ -130,7 +130,7 @@ include_once './header.php';
                   <div class="post-clear third notsecond"></div>
                   <div id="post-index1-231" class="notthird second post-231 post type-post status-publish format-standard has-post-thumbnail hentry category-websites Websites">
                      <div class="post-feature-image">
-                        <a href="<?= $root ?>website.php?param=sumbookkeeper" rel="bookmark" title="Permanent Link to House Trade Built">     <img class="thumbnail large" src="<?= $root ?>assets/images/clients/sumbookkeeper-450x300.jpg" alt="Sum Bookkeeper" title="Sum Bookkeeper">
+                        <a href="<?= $root ?>website.php?param=sumbookkeeper" rel="bookmark" title="Permanent Link to Sum Bookkeeper">     <img class="thumbnail large" src="<?= $root ?>assets/images/clients/sumbookkeeper-450x300.jpg" alt="Sum Bookkeeper" title="Sum Bookkeeper">
                         </a>
                      </div>
                      <div class="entry">

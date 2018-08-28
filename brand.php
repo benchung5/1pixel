@@ -9,7 +9,9 @@ $data = [
    'kings-massage-therapy' => ['title' => 'Kings Massage Therapy', 'image' => 'Kings-Massage-Logo.jpg'],
    'lee-burrows-td-waterhouse-wealth-advisory-group' => ['title' => 'Lee Burrows (TD Waterhouse Wealth Advisory Group)', 'image' => 'Lee-Burrows-TD-Waterhouse.png'],
    'law-world-wide' => ['title' => 'Law World Wide', 'image' => 'Law-World-Wide-Logo.jpg'],
-   'webbax-branding' => ['title' => 'Webbax branding', 'image' => 'webbax-logo.jpg'],
+   'stonehill-grille' => ['title' => 'Stonehill Grille', 'image' => 'stonehill.jpg'],
+   'sum-bookkeeper' => ['title' => 'Sum Bookkeeper', 'image' => 'sum-bookkeeper.jpg'],
+   'greenleaf-terrain' => ['title' => 'Greenleaf Terrain', 'image' => 'greenleaf-logo.jpg'],
 ];
 ?>
 
