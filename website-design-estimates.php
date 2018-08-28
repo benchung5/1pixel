@@ -18,6 +18,7 @@ include_once './header.php';
                               <li class="title">Basic</li>
                               <li class="price"><span class="small-text">≈&nbsp;</span>$1500</li>
                               <li class="description">Custom business website</li>
+                              <li class="bullet-item">*Progressive Web App<i class="icon-ok" title=""></i></li>
                               <li class="bullet-item">Up to 5 standard pages<i class="icon-ok" title=""></i></li>
                               <li class="bullet-item">Basic SEO setup<i class="icon-ok" title=""></i></li>
                               <li class="bullet-item">business email setup<i class="icon-ok" title=""></i></li>
@@ -37,9 +38,10 @@ include_once './header.php';
                      <div class="one-third">
                         <div class="pricing-wrapper">
                            <ul class="pricing-table">
-                              <li class="title">Blog</li>
+                              <li class="title">CMS</li>
                               <li class="price"><span class="small-text">≈&nbsp;</span>$2000</li>
                               <li class="description">Blogging website</li>
+                              <li class="bullet-item">*Progressive Web App<i class="icon-ok" title=""></i></li>
                               <li class="bullet-item">Up to 5 standard pages<i class="icon-ok" title=""></i></li>
                               <li class="bullet-item">Basic SEO setup<i class="icon-ok" title=""></i></li>
                               <li class="bullet-item">business email setup<i class="icon-ok" title=""></i></li>
@@ -62,6 +64,7 @@ include_once './header.php';
                               <li class="title">Ecommerce</li>
                               <li class="price"><span class="small-text">≈&nbsp;</span>$3500</li>
                               <li class="description">Ecommerce website</li>
+                              <li class="bullet-item">*Progressive Web App<i class="icon-ok" title=""></i></li>
                               <li class="bullet-item">Up to 5 standard pages<i class="icon-ok" title=""></i></li>
                               <li class="bullet-item">Basic SEO setup<i class="icon-ok" title=""></i></li>
                               <li class="bullet-item">business email setup<i class="icon-ok" title=""></i></li>

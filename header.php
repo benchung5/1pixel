@@ -1,6 +1,8 @@
 <?php
+include_once './lib/helpers.php';
+
 $root = 'http://web.benchung.com/';
-#$root = 'http://localhost:4000/';
+//$root = 'http://localhost:4000/';
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -108,7 +110,7 @@ $root = 'http://web.benchung.com/';
 <?php
 if ($_SERVER[REQUEST_URI] == '/') {
    $body_class = 'home page page-id-29 page-template page-template-page-alt-home page-template-page-alt-home-php fwidth unboxed No-Background-Pattern';
-} elseif (($_SERVER[REQUEST_URI] == '/website-design-estimates.php') || ($_SERVER[REQUEST_URI] == '/websites.php') || ($_SERVER[REQUEST_URI] == '/branding.php')) {
+} elseif (($_SERVER[REQUEST_URI] == '/website-design-estimates/') || ($_SERVER[REQUEST_URI] == '/websites/') || ($_SERVER[REQUEST_URI] == '/branding/')) {
    $body_class = 'page page-id-63 page-template page-template-cusom-maintenance-prices page-template-cusom-maintenance-prices-php logged-in admin-bar fwidth unboxed No-Background-Pattern customize-support';
 } else {
    $body_class = 'page page-id-119 page-template-default c-sn unboxed No-Background-Pattern';
@@ -116,56 +118,40 @@ if ($_SERVER[REQUEST_URI] == '/') {
 ?>
 
 <body class="<?= $body_class ?>">
+
    <!-- FIXED NAVBAR -->
    <div id="fixednav">
       <div class="limit clearfix">
          <!-- FIXED NAVIGATION MENU -->
          <ul class="fixednav">
-            <li id="menu-item-98" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-29 current_page_item menu-item-98"><a href="/">Home</a></li>
-            <li id="menu-item-124" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-124"><a href="/bio/">Bio</a></li>
-            <li id="menu-item-137" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-137">
+            <li class="menu-item <?= is_page_group(['/']) ? 'current-menu-item' : '' ?>"><a href="/">Home</a></li>
+            <li class="menu-item <?= is_page_group(['/bio/']) ? 'current-menu-item' : '' ?>"><a href="/bio/">Bio</a></li>
+            <li class="menu-item <?= is_page_group(['/clients/', '/websites/', '/branding/', '/testimonials/']) ? 'current-menu-item' : '' ?>">
                <a href="/clients/">Clients</a>
                <ul class="sub-menu">
-                  <li id="menu-item-695" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-695"><a href="/websites/">Websites</a></li>
-                  <li id="menu-item-696" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-696"><a href="/branding/">Branding</a></li>
-                  <li id="menu-item-697" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-697"><a href="/testimonials/">Tesitmonials</a></li>
+                  <li class="menu-item"><a href="/websites/">Websites</a></li>
+                  <li class="menu-item"><a href="/branding/">Branding</a></li>
+                  <li class="menu-item"><a href="/testimonials/">Tesitmonials</a></li>
                </ul>
             </li>
-            <li id="menu-item-112" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-112">
+            <li class="menu-item <?= is_page_group(['/services/', '/responsive-websites/', '/ecommerce/', '/website-maintenance/']) ? 'current-menu-item' : '' ?>">
                <a href="/services/">Services</a>
                <ul class="sub-menu">
-                  <li id="menu-item-111" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111"><a href="/responsive-websites/">Responsive Sites and Applications</a></li>
-                  <li id="menu-item-102" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-102"><a href="/ecommerce/">E commerce Websites </a></li>
-                  <li id="menu-item-105" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-105"><a href="/website-maintenance/">Website Maintenance</a></li>
+                  <li id="menu-item-111" class="menu-item"><a href="/responsive-websites/">Responsive Sites and Applications</a></li>
+                  <li id="menu-item-102" class="menu-item"><a href="/ecommerce/">Ecommerce Websites </a></li>
+                  <li id="menu-item-105" class="menu-item"><a href="/website-maintenance/">Website Maintenance</a></li>
                </ul>
             </li>
-            <li id="menu-item-352" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-352">
-               <a href="/#">Our Process</a>
+            <li class="menu-item <?= is_page_group(['/website-building-steps/', '/design-programming/', '/usability/']) ? 'current-menu-item' : '' ?>">
+               <a href="/website-building-steps/">Our Process</a>
                <ul class="sub-menu">
-                  <li id="menu-item-673" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-673"><a href="/website-building-steps/">Steps To Building a Web Application</a></li>
-                  <li id="menu-item-101" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-101"><a href="/design-programming/">Design and Programming</a></li>
-                  <li id="menu-item-113" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-113"><a href="/usability/">Usability</a></li>
+                  <li id="menu-item-673" class="menu-item"><a href="/website-building-steps/">Steps To Building a Web Application</a></li>
+                  <li id="menu-item-101" class="menu-item"><a href="/design-programming/">Design and Programming</a></li>
+                  <li id="menu-item-113" class="menu-item"><a href="/usability/">Usability</a></li>
                </ul>
             </li>
-            <li id="menu-item-411" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-411"><a href="/contact/">Contact Us</a></li>
+            <li class="menu-item"><a href="/contact/">Contact Us</a></li>
          </ul>
-<!--          <select class="select-menu-fixednav">
-            <option value="#">Navigate to ...</option>
-            <option value="/">&nbsp;Home</option>
-            <option value="/bio/">&nbsp;Bio</option>
-            <option value="/clients/">&nbsp;Clients</option>
-            <option value="/websites/">–&nbsp;&nbsp;Websites</option>
-            <option value="/branding/">–&nbsp;&nbsp;Branding</option>
-            <option value="/testimonials/">–&nbsp;&nbsp;Tesitmonials</option>
-            <option value="/services/">&nbsp;Services</option>
-            <option value="/responsive-websites/">–&nbsp;&nbsp;Responsive Websites</option>
-            <option value="/ecommerce/">–&nbsp;&nbsp;E commerce Websites</option>
-            <option value="/website-maintenance/">–&nbsp;&nbsp;Website Maintenance</option>
-            <option value="/website-building-steps/">–&nbsp;&nbsp;Steps To Building a Website</option>
-            <option value="/design-programming/">–&nbsp;&nbsp;Design and Programming</option>
-            <option value="/usability/">–&nbsp;&nbsp;Usability</option>
-            <option value="/contact/">&nbsp;Contact Us</option>
-         </select> -->
          <!-- SOCIAL MEDIA ICONS -->
          <div class="sub-icons">
             <ul class="clearfix">
@@ -206,51 +192,64 @@ if ($_SERVER[REQUEST_URI] == '/') {
             <!-- SECONDARY NAVIGATION -->
             <div id="catnav">
                <ul class="catnav clearfix">
+                  <li class="menu-item <?= is_page_group(['/']) ? 'current-menu-item' : '' ?>"><a href="/">Home</a></li>
+                  <li class="menu-item <?= is_page_group(['/bio/']) ? 'current-menu-item' : '' ?>"><a href="/bio/">Bio</a></li>
+                  <li class="menu-item <?= is_page_group(['/clients/', '/websites/', '/branding/', '/testimonials/']) ? 'current-menu-item' : '' ?>">
+                     <a href="/clients/">Clients</a>
+                     <ul class="sub-menu">
+                        <li class="menu-item"><a href="/websites/">Websites</a></li>
+                        <li class="menu-item"><a href="/branding/">Branding</a></li>
+                        <li class="menu-item"><a href="/testimonials/">Tesitmonials</a></li>
+                     </ul>
+                  </li>
+                  <li class="menu-item <?= is_page_group(['/services/', '/responsive-websites/', '/ecommerce/', '/website-maintenance/']) ? 'current-menu-item' : '' ?>">
+                     <a href="/services/">Services</a>
+                     <ul class="sub-menu">
+                        <li id="menu-item-111" class="menu-item"><a href="/responsive-websites/">Responsive Sites and Applications</a></li>
+                        <li id="menu-item-102" class="menu-item"><a href="/ecommerce/">Ecommerce Websites </a></li>
+                        <li id="menu-item-105" class="menu-item"><a href="/website-maintenance/">Website Maintenance</a></li>
+                     </ul>
+                  </li>
+                  <li class="menu-item <?= is_page_group(['/website-building-steps/', '/design-programming/', '/usability/']) ? 'current-menu-item' : '' ?>">
+                     <a href="/website-building-steps/">Our Process</a>
+                     <ul class="sub-menu">
+                        <li id="menu-item-673" class="menu-item"><a href="/website-building-steps/">Steps To Building a Web Application</a></li>
+                        <li id="menu-item-101" class="menu-item"><a href="/design-programming/">Design and Programming</a></li>
+                        <li id="menu-item-113" class="menu-item"><a href="/usability/">Usability</a></li>
+                     </ul>
+                  </li>
+                  <li class="menu-item"><a href="/contact/">Contact Us</a></li>
+               </ul>
+
+<!--                <ul class="catnav clearfix">
                   <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-29 current_page_item menu-item-98"><a href="/">Home</a></li>
                   <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-124"><a href="/bio/">Bio</a></li>
                   <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-137">
                      <a href="/clients/" class="sf-with-ul">Clients</a>
                      <ul class="sub-menu" style="display: none;">
-                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-695"><a href="/websites/">Websites</a></li>
-                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-696"><a href="/branding/">Branding</a></li>
+                        <li class="menu-item"><a href="/websites/">Websites</a></li>
+                        <li class="menu-item"><a href="/branding/">Branding</a></li>
                         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-697"><a href="/testimonials/">Tesitmonials</a></li>
                      </ul>
                   </li>
                   <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-112">
                      <a href="/services/" class="sf-with-ul">Services</a>
                      <ul class="sub-menu" style="display: none;">
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111"><a href="/responsive-websites/">Responsive Websites</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-102"><a href="/ecommerce/">E commerce Websites</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-105"><a href="/website-maintenance/">Website Maintenance</a></li>
+                        <li class="menu-item"><a href="/responsive-websites/">Responsive Websites</a></li>
+                        <li class="menu-item"><a href="/ecommerce/">E commerce Websites</a></li>
+                        <li class="menu-item"><a href="/website-maintenance/">Website Maintenance</a></li>
                      </ul>
                   </li>
                   <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-352">
                      <a href="/#" class="sf-with-ul">Our Process</a>
                      <ul class="sub-menu" style="display: none;">
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-673"><a href="/website-building-steps/">Steps To Building a Web Application</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-101"><a href="/design-programming/">Design and Programming</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-113"><a href="/usability/">Usability</a></li>
+                        <li class="menu-item"><a href="/website-building-steps/">Steps To Building a Web Application</a></li>
+                        <li class="menu-item"><a href="/design-programming/">Design and Programming</a></li>
+                        <li class="menu-item"><a href="/usability/">Usability</a></li>
                      </ul>
                   </li>
-                  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-411"><a href="/contact/">Contact Us</a></li>
-               </ul>
-<!--                <select class="select-menu-catnav">
-                  <option value="#">Navigate to ...</option>
-                  <option value="/">&nbsp;Home</option>
-                  <option value="/bio/">&nbsp;Bio</option>
-                  <option value="/clients/">&nbsp;Clients</option>
-                  <option value="/websites/">–&nbsp;&nbsp;Websites</option>
-                  <option value="/branding/">–&nbsp;&nbsp;Branding</option>
-                  <option value="/testimonials/">–&nbsp;&nbsp;Tesitmonials</option>
-                  <option value="/services/">&nbsp;Services</option>
-                  <option value="/responsive-websites/">–&nbsp;&nbsp;Responsive Websites</option>
-                  <option value="/ecommerce/">–&nbsp;&nbsp;E commerce Websites</option>
-                  <option value="/website-maintenance/">–&nbsp;&nbsp;Website Maintenance</option>
-                  <option value="/website-building-steps/">–&nbsp;&nbsp;Steps To Building a Website</option>
-                  <option value="/design-programming/">–&nbsp;&nbsp;Design and Programming</option>
-                  <option value="/usability/">–&nbsp;&nbsp;Usability</option>
-                  <option value="/contact/">&nbsp;Contact Us</option>
-               </select> -->
+                  <li class="menu-item"><a href="/contact/">Contact Us</a></li>
+               </ul> -->
             </div>
          </div>
       </div>

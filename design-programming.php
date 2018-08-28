@@ -19,7 +19,7 @@ include_once './header.php';
                      </div>
                      <div class="one-half">
                         <h2>Programming</h2>
-                        <p>Our programming toolkit include languages like PHP, SQL and Javascript/Jquery. We’ve used others in the past like C# and Asp.net but have since narrowed our focus to open source Node.js, ReactJS and WordPress related frameworks. We code with the latest CSS3 and HTML 5 web standards and make sure we’re as W3C compliant as possible. We keep modularity and flexibility in mind and are sure to ask our clients about their plans for future expansion so their software can smoothly accommodate it.</p>
+                        <p>Our programming toolkit include languages like PHP, SQL and Javascript. We’ve used others in the past like C# and Asp.net but have since narrowed our focus to open source Node.js, PHP and ReactJS related frameworks. We code with the latest CSS3 and HTML 5 web standards and make sure we’re as W3C compliant as possible. We keep modularity and flexibility in mind and are sure to ask our clients about their plans for future expansion so their software can smoothly accommodate it.</p>
                      </div>
                      <div class="clear"></div>
                      <div class="caption">

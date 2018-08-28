@@ -149,7 +149,6 @@
       <script type="text/javascript" src="<?= $root ?>assets/js/suckerfish-cat.js"></script>
       <script type="text/javascript" src="<?= $root ?>assets/js/jquery.mobilemenu.js"></script>
       <script type="text/javascript" src="<?= $root ?>assets/js/onepix-custom.js"></script>
-      <script type="text/javascript" src="<?= $root ?>assets/js/p-embed.min.js"></script>
       <script type="text/javascript" src="<?= $root ?>assets/js/comment-reply.min.js"></script>
       <script type="text/javascript">
       jQuery(function() {

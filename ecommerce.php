@@ -10,21 +10,21 @@ include_once './header.php';
             <div id="content" class="clearfix">
                <div class="singlepage clearfix post-119 page type-page status-publish hentry" id="single-page-119">
                   <div class="entry">
-                     <h1 class="page-title">E commerce Websites</h1>
-                     <p>Online shopping is becoming increasingly popular. Fortunately, WordPress adopts E commerce abilities quite well. Even if a website has not been built with E commerce at the beginning, it can easily be added down the road. Through experience, plug-ins and theme integration have so conveniently been the answer for many situations like these.</p>
+                     <h1 class="page-title">Ecommerce Websites</h1>
+                     <p>Online shopping is becoming increasingly popular. Fortunately, the 1pixel CMS adopts ecommerce abilities quite well. Even if a website has not been built with ecommerce at the beginning, it can easily be added down the road. Through experience, progressive enhancement is essential to plan for even if the need for a feature like an online store is so clear at the beginning.</p>
                      <div class="hdivider"></div>
-                     <h2>WooCommerce – the plug-in of choice</h2>
-                     <p>WooCommerce as our main solution for all eCommerce plugins and themes we create. It integrates nicely into themes and plugins. It also includes abilities for various payment gateways such as Paypal and even merchant services.</p>
-                     <p>The details and abilities of WooCommerce are beyond the scope of our website. We fulfill all E commerce requests using WooCommerce where possible.</p>
-                     <h2>What do most E commerce plugins/themes usually include?</h2>
+                     <h2>Stripe – the payment gateway of choice</h2>
+                     <p>Stripe is our main solution for all eCommerce sites we create. Compared to Paypal, it has a simpler fee system and you can charge costomers with almost any kind of credit or debit card. It also supports Bitcoin, Apple Pay, Android Pay, 3D Secure, SOFORT, iDEAL, Giropay, Bancontact, SEPA direct debit, and China’s Alipay.</p>
+                     <p>The details and abilities of Stripe are beyond the scope of our website. We fulfill all ecommerce requests using Stripe where possible.</p>
+                     <h2>What do most ecommerce sites usually include?</h2>
                      <ul>
                         <li>product/catalogue showcase</li>
                         <li>shopping cart</li>
-                        <li>flat, weight, or table based rate shipping</li>
-                        <li>product categories &amp; sub-categories</li>
+                        <li>shipping rates</li>
+                        <li>product categories</li>
                         <li>product variations</li>
-                        <li>paypal checkout</li>
-                        <li>more… but that covers the basics</li>
+                        <li>Stripe checkout</li>
+                        <li>scalability and room for growth</li>
                      </ul>
                      <div style="clear:both;"></div>
                   </div>

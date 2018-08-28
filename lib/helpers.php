@@ -9,4 +9,13 @@
 			return '';
 		}
 	}
+
+	function is_page_group($page_list) 
+	{
+		if (in_array($_SERVER[REQUEST_URI], $page_list)) {
+			return true;
+		} 
+
+		return false;
+	}
 ?>
