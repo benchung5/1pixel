@@ -138,14 +138,13 @@ h2.full-width-title {
 		background:transparent;
 	}*/
 
-        #footer-banner a.button {
-    margin-left: 0;
-    margin-right: 0;
-    text-align: center;
-    display: inline-block;
-    margin-top: 0;
-    float: none;
-}
+	#footer-banner a.button {
+	    margin-left: 0;
+	    margin-right: 0;
+	    text-align: center;
+	    display: inline-block;
+	    float: none;
+	}
 
 }
 
@@ -480,11 +479,10 @@ h2.full-width-title {
 }
       
 .footer-center, .footer-center h1 {
-
     margin-left: 0;
     margin-right: 0;
     text-align: center;
-    display: inline-block;
+    flex-direction: column;
     width: 95%;
 }
 

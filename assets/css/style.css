@@ -6129,10 +6129,9 @@ body.page-template-page-landing-php {
 
 #footer-banner {
     margin: 0 auto;
-    max-width: 974px;
-    min-height: 77px;
     position: relative;
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 #featured-banner-wrap {
@@ -6143,7 +6142,8 @@ body.page-template-page-landing-php {
 .footer-featured-text {
     float: left;
     width: auto;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     margin-right: 20px;
 }
 
@@ -6168,14 +6168,17 @@ a.featured-button:hover {
 }
 
 .footer-center {
+	display: flex;
+	align-items: center;
+    justify-content: center;
 }
 
 #footer-banner a.button {
-    margin-top: 30px;
     display: block;
     float: left;
     font-weight: normal;
     padding: 0px 15px;
+    margin: 10px 0;
 }
 
 #footer-banner h1, #footer-banner h2, #footer-banner p {

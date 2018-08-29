@@ -18,7 +18,7 @@ include_once './header.php';
                               </h2>
                               <div class="my-excerpt clearfix">
                                  <div class="excerpt-inner">
-                                    We build modern, scalable mobile-ready websites. Plan, test drive and execute your vision directly with the developer - <br> <a title="Web applicaton building steps" href="/website-building-steps/">without the nonsense.</a>
+                                    We build modern, scalable mobile-ready websites. Plan, test drive and execute your vision directly with the developer - <br> <a title="Web applicaton building steps" href="/progressive-web-apps/">without the nonsense.</a>
                                  </div>
                               </div>
                            </div>
@@ -42,8 +42,8 @@ include_once './header.php';
                               <div id="featured-banner-grad" class="clearfix solo-wide">
                                  <div class="limit">
                                     <div class="welcome-message">
-                                       <h2 style="margin-bottom:5px;text-align:center;">See how responsive web design <br>has changed how websites are viewed on mobile devices</h2>
-                                       <center><a href="/responsive-websites/" class="featured-button">Sounds good. Tell me more</a></center>
+                                       <h2 style="margin-bottom:5px;text-align:center;">Turn your website into a mobile app with progressive enhancement</h2>
+                                       <center><a href="/progressive-web-apps/" class="featured-button">Sounds good. Tell me more</a></center>
                                     </div>
                                  </div>
                               </div>
@@ -80,7 +80,7 @@ include_once './header.php';
                                     <h3 class="widgettitle"><span><a href="/wordpress-web-applications/">Web Applications</a></span></h3>
                                     <span class="dropcap"><i class="icon-cogs"></i></span>
                                     Change the way you do business with a web application. We deliver fully customized small to mid-sized business apps using modern techniques to make you web application feel like a desktop app.<br>
-                                    <a rel="nofollow" href="/website-building-steps/">Our Process</a>
+                                    <a rel="nofollow" href="/progressive-web-apps/">Our Process</a>
                                  </div>
                               </div>
                            </div>

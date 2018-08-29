@@ -134,9 +134,10 @@ if ($_SERVER[REQUEST_URI] == '/') {
                   <li class="menu-item"><a href="/testimonials/">Tesitmonials</a></li>
                </ul>
             </li>
-            <li class="menu-item <?= is_page_group(['/services/', '/responsive-websites/', '/ecommerce/', '/website-maintenance/']) ? 'current-menu-item' : '' ?>">
-               <a href="/services/">Services</a>
+            <li class="menu-item <?= is_page_group(['/progressive-web-apps/', '/responsive-websites/', '/ecommerce/', '/website-maintenance/']) ? 'current-menu-item' : '' ?>">
+               <a href="/progressive-web-apps/">Services</a>
                <ul class="sub-menu">
+                  <li id="menu-item-111" class="menu-item"><a href="/progressive-web-apps/">Progressive Web Apps</a></li>
                   <li id="menu-item-111" class="menu-item"><a href="/responsive-websites/">Responsive Sites and Applications</a></li>
                   <li id="menu-item-102" class="menu-item"><a href="/ecommerce/">Ecommerce Websites </a></li>
                   <li id="menu-item-105" class="menu-item"><a href="/website-maintenance/">Website Maintenance</a></li>
@@ -202,9 +203,10 @@ if ($_SERVER[REQUEST_URI] == '/') {
                         <li class="menu-item"><a href="/testimonials/">Tesitmonials</a></li>
                      </ul>
                   </li>
-                  <li class="menu-item <?= is_page_group(['/services/', '/responsive-websites/', '/ecommerce/', '/website-maintenance/']) ? 'current-menu-item' : '' ?>">
-                     <a href="/services/">Services</a>
+                  <li class="menu-item <?= is_page_group(['/progressive-web-apps/', '/responsive-websites/', '/ecommerce/', '/website-maintenance/']) ? 'current-menu-item' : '' ?>">
+                     <a href="/progressive-web-apps/">Services</a>
                      <ul class="sub-menu">
+                        <li id="menu-item-111" class="menu-item"><a href="/progressive-web-apps/">Progressive Web Apps</a></li>
                         <li id="menu-item-111" class="menu-item"><a href="/responsive-websites/">Responsive Sites and Applications</a></li>
                         <li id="menu-item-102" class="menu-item"><a href="/ecommerce/">Ecommerce Websites </a></li>
                         <li id="menu-item-105" class="menu-item"><a href="/website-maintenance/">Website Maintenance</a></li>

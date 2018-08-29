@@ -8,7 +8,6 @@ include_once './header.php';
          <h1 class="full-width-title lazy-first" style="opacity: 1;">Progressive Web Apps</h1>
          <h2 class="full-width-title lazy-second" style="opacity: 1;">
             Eliminate the need for both a website and native app. PWAs fulfill both needs at the same time.
-            
          </h2>
       </div>
 <!--       <div class="full-width-foreground">
@@ -23,10 +22,10 @@ include_once './header.php';
          <div class="widget widget-1 widget-first featuredpage" id="featured-page-4">
             <div class="widget-wrap">
                <div class="post clearfix">
-                  <h3 class="widgettitle"><span><a href="http://1pixeltheme.com/wordpress-rest-api/">Cross Device Compatability</a></span></h3>
-                  <span class="dropcap"><i class="icon-cogs"></i></span>
+                  <h3 class="widgettitle"><span><a href="https://youtu.be/m-sCdS0sQO8" target="_blank">Cross Device Compatability</a></span></h3>
+                  <span class="dropcap" style="font-size: 24px;"><i class="icon-mobile-phone"></i></span>
                   No need to create separate mobile apps for ios, android, etc. Progressive Web Apps can run on any device that can view a website. All code is kept and updated from one source wich means much lower costs and higher turnaround while reaching a broader audience.
-                  <a rel="nofollow" href="http://1pixeltheme.com/wordpress-rest-api/">Read More</a>
+                  <a rel="nofollow" href="https://youtu.be/m-sCdS0sQO8" target="_blank">Read More</a>
                </div>
             </div>
          </div>
@@ -35,10 +34,10 @@ include_once './header.php';
          <div class="widget widget-1 widget-first featuredpage" id="featured-page-4">
             <div class="widget-wrap">
                <div class="post clearfix">
-                  <h3 class="widgettitle"><span><a href="http://1pixeltheme.com/responsive-themes-and-plugins/">No Need for downloads</a></span></h3>
-                  <span class="dropcap" style="font-size: 21px;"><i class="icon-mobile-phone"></i></span>
+                  <h3 class="widgettitle"><span><a href="https://developers.google.com/web/showcase/2016/aliexpress" target="_blank">Automatic Updates</a></span></h3>
+                  <span class="dropcap" style="font-size: 17px;"><i class="icon-cloud-download"></i></span>
                   PWA's download seamlessly without the hassle of searching on an app store. Images, files and content are saved to the device automatically as users navigate your website. Less hassle for clients mean higher chance of conversion.
-                  <a href="http://1pixeltheme.com/responsive-themes-and-plugins/" rel="nofollow">Read More</a>
+                  <a href="https://developers.google.com/web/showcase/2016/aliexpress" rel="nofollow" target="_blank">Read More</a>
                </div>
             </div>
          </div>
@@ -47,10 +46,10 @@ include_once './header.php';
          <div class="widget widget-1 widget-first featuredpage" id="featured-page-4">
             <div class="widget-wrap">
                <div class="post clearfix">
-                  <h3 class="widgettitle"><span><a href="http://1pixeltheme.com/e-commerce-themes-and-plugins/">Native App Features</a></span></h3>
-                  <span class="dropcap"><i class="icon-shopping-cart"></i></span>
+                  <h3 class="widgettitle"><span><a href="https://developers.google.com/web/progressive-web-apps/#engaging" target="_blank">Native App Features</a></span></h3>
+                  <span class="dropcap"><i class="icon-rocket"></i></span>
                   Progressive enhancement is all about speed and user experience. The gap is closing between desktop and the web. Features like installable home screen icons, mobile-friendly layouts and push notifications give users essential app convenience and abilities.
-                  <a rel="nofollow" href="http://1pixeltheme.com/e-commerce-themes-and-plugins/">Read More</a>
+                  <a rel="nofollow" href="https://developers.google.com/web/progressive-web-apps/#engaging" target="_blank">Read More</a>
                </div>
             </div>
          </div>
@@ -91,7 +90,7 @@ include_once './header.php';
             </p>
          </div>
          <div class="one-fourth center">
-            <h3 class="widgettitle"><span><a href="http://1pixeldesign.com/other-services/">Safe</a></span></h3>
+            <h3 class="widgettitle"><span><a href="http://1pixeldesign.com/other-services/">Safety</a></span></h3>
             <p class="small center">
                All sites are secure (served over HTTPS). This prevents data from being snooped or tampered with while and providing assurance that data will be safe.
             </p>
